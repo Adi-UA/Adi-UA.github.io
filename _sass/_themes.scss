@@ -6,29 +6,29 @@
 
 :root {
   color-scheme: light;
-  --global-bg-color: #{$white-color};
-  --global-code-bg-color: #{$code-bg-color-light};
-  --global-text-color: #{$black-color};
-  --global-text-color-light: #{$grey-color};
-  --global-theme-color: #{$purple-color};
-  --global-hover-color: #{$purple-color};
-  --global-hover-text-color: #{$white-color};
-  --global-footer-bg-color: #{$grey-color-dark};
-  --global-footer-text-color: #{$grey-color-light};
-  --global-footer-link-color: #{$white-color};
-  --global-distill-app-color: #{$grey-color};
-  --global-divider-color: rgba(0, 0, 0, 0.1);
-  --global-card-bg-color: #{$white-color};
-  --global-highlight-color: #{$red-color-dark};
+  --global-bg-color: #{$pixel-bg-dark};
+  --global-code-bg-color: #{$pixel-bg-light};
+  --global-text-color: #{$pixel-white};
+  --global-text-color-light: #{$pixel-grey};
+  --global-theme-color: #{$pixel-accent-cyan};
+  --global-hover-color: #{$pixel-accent-pink};
+  --global-hover-text-color: #{$pixel-black};
+  --global-footer-bg-color: #{$pixel-bg-light};
+  --global-footer-text-color: #{$pixel-accent-yellow};
+  --global-footer-link-color: #{$pixel-accent-cyan};
+  --global-distill-app-color: #{$pixel-accent-green};
+  --global-divider-color: #{$pixel-grey};
+  --global-card-bg-color: #{$pixel-bg-light};
+  --global-highlight-color: #{$pixel-accent-yellow};
   --global-back-to-top-bg-color: rgba(
-    #{color.channel($black-color, "red", $space: rgb)},
-    #{color.channel($black-color, "green", $space: rgb)},
-    #{color.channel($black-color, "blue", $space: rgb)},
+    #{color.channel($pixel-accent-cyan, "red", $space: rgb)},
+    #{color.channel($pixel-accent-cyan, "green", $space: rgb)},
+    #{color.channel($pixel-accent-cyan, "blue", $space: rgb)},
     0.4
   );
-  --global-back-to-top-text-color: #{$white-color};
-  --global-newsletter-bg-color: #{$white-color};
-  --global-newsletter-text-color: #{$black-color};
+  --global-back-to-top-text-color: #{$pixel-black};
+  --global-newsletter-bg-color: #{$pixel-accent-green};
+  --global-newsletter-text-color: #{$pixel-black};
 
   --global-tip-block: #42b983;
   --global-tip-block-bg: #e2f5ec;
@@ -78,28 +78,29 @@
 
 html[data-theme="dark"] {
   color-scheme: dark;
-  --global-bg-color: #{$grey-color-dark};
-  --global-code-bg-color: #{$code-bg-color-dark};
-  --global-text-color: #{$grey-color-light};
-  --global-text-color-light: #{$grey-color};
-  --global-theme-color: #{$cyan-color};
-  --global-hover-color: #{$cyan-color};
-  --global-hover-text-color: #{$white-color};
-  --global-footer-bg-color: #{$grey-color-light};
-  --global-footer-text-color: #{$grey-color-dark};
-  --global-footer-link-color: #{$black-color};
-  --global-distill-app-color: #{$grey-color-light};
-  --global-divider-color: #424246;
-  --global-card-bg-color: #{$grey-900};
+  --global-bg-color: #{$pixel-black};
+  --global-code-bg-color: #{$pixel-bg-dark};
+  --global-text-color: #{$pixel-accent-yellow};
+  --global-text-color-light: #{$pixel-grey};
+  --global-theme-color: #{$pixel-accent-pink};
+  --global-hover-color: #{$pixel-accent-cyan};
+  --global-hover-text-color: #{$pixel-black};
+  --global-footer-bg-color: #{$pixel-bg-dark};
+  --global-footer-text-color: #{$pixel-accent-green};
+  --global-footer-link-color: #{$pixel-accent-yellow};
+  --global-distill-app-color: #{$pixel-accent-cyan};
+  --global-divider-color: #{$pixel-grey};
+  --global-card-bg-color: #{$pixel-bg-dark};
+  --global-highlight-color: #{$pixel-accent-green};
   --global-back-to-top-bg-color: rgba(
-    #{color.channel($white-color, "red", $space: rgb)},
-    #{color.channel($white-color, "green", $space: rgb)},
-    #{color.channel($white-color, "blue", $space: rgb)},
+    #{color.channel($pixel-accent-pink, "red", $space: rgb)},
+    #{color.channel($pixel-accent-pink, "green", $space: rgb)},
+    #{color.channel($pixel-accent-pink, "blue", $space: rgb)},
     0.5
   );
-  --global-back-to-top-text-color: #{$black-color};
-  --global-newsletter-bg-color: #{$grey-color-light};
-  --global-newsletter-text-color: #{$grey-color-dark};
+  --global-back-to-top-text-color: #{$pixel-accent-yellow};
+  --global-newsletter-bg-color: #{$pixel-accent-cyan};
+  --global-newsletter-text-color: #{$pixel-black};
 
   --global-tip-block: #42b983;
   --global-tip-block-bg: #e2f5ec;

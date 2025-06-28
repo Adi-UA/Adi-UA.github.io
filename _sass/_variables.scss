@@ -32,6 +32,17 @@ $grey-900: #212529;
 $white-color: #ffffff !default;
 $black-color: #000000 !default;
 
+/* Modern Pixel-Art Palette */
+$pixel-bg-dark: #232946 !default; // deep navy
+$pixel-bg-light: #16161a !default; // charcoal
+$pixel-accent-cyan: #29fdff !default; // bright cyan
+$pixel-accent-pink: #ff6ac1 !default; // magenta-pink
+$pixel-accent-yellow: #ffe156 !default; // yellow
+$pixel-accent-green: #6fff57 !default; // green
+$pixel-grey: #a8a8a8 !default;
+$pixel-white: #f4f4f4 !default;
+$pixel-black: #22223b !default;
+
 // Theme colors
 
 $code-bg-color-light: rgba($purple-color, 0.05);

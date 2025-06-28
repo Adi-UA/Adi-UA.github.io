@@ -2,7 +2,7 @@
  * Styles for the base elements of the theme.
  ******************************************************************************/
 
-// Typography
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap");
 
 p,
 h1,
@@ -17,6 +17,13 @@ li,
 span,
 strong {
   color: var(--global-text-color);
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Montserrat", Arial, sans-serif;
+  letter-spacing: 0.5px;
 }
 
 hr {
