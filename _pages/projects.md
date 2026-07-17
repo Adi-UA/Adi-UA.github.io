@@ -2,10 +2,10 @@
 layout: page
 title: projects
 permalink: /projects/
-description: A growing collection of your cool projects.
+description: Personal projects across Go, Java, Rust, Python, and TypeScript.
 nav: true
-nav_order: 3
-display_categories: [work, fun]
+nav_order: 1
+display_categories: [Applications & Systems, Research & Algorithms]
 horizontal: false
 ---
 

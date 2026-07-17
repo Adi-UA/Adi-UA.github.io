@@ -50,15 +50,27 @@
   "work": [
     {
       "name": "Amazon",
-      "position": "Software Development Engineer",
-      "url": "",
-      "startDate": "2024-01-01",
+      "position": "Software Development Engineer 2",
+      "startDate": "2025-07-01",
       "endDate": "",
-      "summary": "Lead engineer optimizing transport network speed and efficiency at scale. Delivered 4 minor and 2 major projects in 5 months, resulting in SDE-2 promotion recommendation. Led cross-team workflow design impacting 230MM+ configs and designed a global AWS/Spring email service processing 1000+ emails/min.",
+      "summary": "",
       "highlights": [
-        "SDE-2 promotion recommendation after 5 months",
-        "Tech lead for transport network optimization (impacting 230MM+ configs)",
-        "Designed AWS/Spring email service (1000+ emails/min, 5+ teams, global vendors)"
+        "Led suspension system overhaul with EventBridge batch processing and DynamoDB distributed rate limiting, improving execution from 2 days to 5 min and throughput from 1 to 200 requests/min.",
+        "Co-developed multi-agent AI system with LangGraph and Bedrock to profile services and build deprecated code dependency graphs, winning 2 hackathons among 1000+ global Amazon teams.",
+        "Designed OpenSearch-based precompute pipeline (Kinesis, Lambda, SQS) eliminating up to 50K+ relationship joins per query at runtime, cutting sourcing explainability latency to under 80s per question for AI agents.",
+        "Designed MCP server with DuckDB on S3 Parquet for operational decision explainability flows in AI."
+      ]
+    },
+    {
+      "name": "Amazon",
+      "position": "Software Development Engineer",
+      "startDate": "2024-01-01",
+      "endDate": "2025-07-01",
+      "summary": "",
+      "highlights": [
+        "Delivered 4 minor and 2 major projects over 5 months, leading to SDE-2 promotion recommendation 5 months after start.",
+        "Presented network optimization data analysis and designed workflow affecting 230MM+ configs as tech lead across 3 teams.",
+        "Built email service with SES and Spring Boot driving 1000 emails/min from 5+ teams to global vendors."
       ]
     },
     {
@@ -130,13 +142,34 @@
       "summary": "Awarded for significant contribution, originality, creativity, and independence in research."
     },
     {
-      "title": "Dean’s List With Distinction",
+      "title": "Dean\u2019s List With Distinction",
       "date": "2019-01-01",
       "awarder": "University of Arizona",
       "summary": "8-time recipient for maintaining a 4.0 GPA for an academic year."
     }
   ],
   "projects": [
+    {
+      "name": "Whisper",
+      "summary": "Shared daily safe-word service with Google OAuth, timezone-aware rotation, JNI-based Rust word generation, Bucket4j rate limiting, Prometheus metrics, and a Helm chart for Kubernetes deployment.",
+      "highlights": ["Java 21", "Rust (JNI)", "Spring Boot", "React", "Docker", "Helm"],
+      "startDate": "2025",
+      "url": "https://github.com/Adi-UA/Whisper"
+    },
+    {
+      "name": "dups",
+      "summary": "Concurrent duplicate file finder with a two-pass hashing strategy (4KB partial hash for files over 1MB, full SHA-256 for confirmed candidates), channel-based worker pool, interactive per-group deletion, and cross-platform builds via goreleaser.",
+      "highlights": ["Go", "Goroutines", "SHA-256"],
+      "startDate": "2026",
+      "url": "https://github.com/Adi-UA/dups"
+    },
+    {
+      "name": "Hindsight",
+      "summary": "Keyless backtest visualizer for equity trading strategies with real-time portfolio charting, trade annotation, and drawdown analysis. Deployed on Vercel with GitHub Actions CI.",
+      "highlights": ["Python", "FastAPI", "React", "Vercel"],
+      "startDate": "2025",
+      "url": "https://github.com/Adi-UA/Hindsight"
+    },
     {
       "name": "Host Management System",
       "summary": "Architected an EC2 host management system leveraging cryptographic techniques for secure user authentication and session management. Features include host monitoring, dynamic fleet scaling, and controlled termination. Used encryption protocols to safeguard against man-in-the-middle attacks.",
@@ -263,7 +296,7 @@
       "position": "Winner",
       "startDate": "2020-01-01",
       "endDate": "2020-01-01",
-      "summary": "Won Amazon’s Most Impactful Use of Data-Driven Technology for developing a machine learning model for distracted driver detection with AWS Sagemaker, among 200+ contestants and 50+ teams."
+      "summary": "Won Amazon\u2019s Most Impactful Use of Data-Driven Technology for developing a machine learning model for distracted driver detection with AWS Sagemaker, among 200+ contestants and 50+ teams."
     },
     {
       "organization": "MLH: To the Moon and Hack",
