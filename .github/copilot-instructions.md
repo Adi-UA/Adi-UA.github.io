@@ -44,7 +44,7 @@ Do not reintroduce plugin-owned runtime assets into starter paths unless intenti
 - `test/integration_*.sh` - cross-plugin integration checks
 - `test/visual/` - visual parity checks
 - `.github/workflows/` - CI workflows
-- `docs/` - user, maintainer, upgrade, and plugin-system documentation
+- `docs/` - ownership boundaries (`BOUNDARIES.md`)
 - `.agents/skills/al-folio-bootstrap/SKILL.md` - canonical agent workflow for new site setup
 - `.agents/skills/al-folio-v1-migration/SKILL.md` - canonical agent workflow for customized fork migration
 - `.codex/skills` and `.claude/skills` - symlinks to `.agents/skills`
