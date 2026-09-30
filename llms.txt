@@ -1,0 +1,16 @@
+# Adi Banerjee
+
+> Software engineer at Amazon building production AI agents: MCP servers, LLM evaluation, graph-based tooling, and AWS data pipelines.
+
+## Pages
+
+- [About](https://adi-ua.github.io/): current role and selected work
+- [Projects](https://adi-ua.github.io/projects/): systems and research projects with source links
+- [CV](https://adi-ua.github.io/cv/): experience, publication, and skills
+
+## Profiles
+
+- [GitHub](https://github.com/Adi-UA)
+- [LinkedIn](https://www.linkedin.com/in/adi-ua/)
+- [Publication (Springer)](https://doi.org/10.1007/978-3-031-21671-8_6)
+- [Preprint (arXiv)](https://arxiv.org/abs/2211.06733)

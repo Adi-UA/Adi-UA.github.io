@@ -2,15 +2,14 @@
 layout: about
 title: About
 permalink: /
-subtitle: Software Engineer @ Amazon | ML Researcher | Google Developers Club Founder @ UA
+subtitle: Software Engineer @ Amazon | AI agents and ML systems
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: false
   more_info: >
-    <p>520-369-1233</p>
-    <p><a href="mailto:abanerjee@arizona.edu">abanerjee@arizona.edu</a></p>
+    <p><a href="mailto:abanerjee.email@gmail.com">abanerjee.email@gmail.com</a></p>
     <p>Seattle, WA</p>
 
 selected_papers: false
@@ -27,10 +26,8 @@ latest_posts:
   limit: 3
 ---
 
-I am a prospective PhD student and current software engineer at Amazon, based in Seattle, WA, where I work on speed optimization for the transport network (graph optimization). I’m also a volunteer researcher with publications and five years of experience (including undergrad) in grounded multi-modal NLP and large language models, with a focus on robustness, code generation, and knowledge representation. I’m passionate about building scalable ML systems and solving cross-disciplinary problems and am currently interested in augmenting LLMs with knowledge graphs to generate infrastructure as code using tools like AWS CDK.
+I'm a software engineer at Amazon in Seattle, building agentic systems for vendor operations. Recent work includes an MCP server that lets a vendor-facing AI assistant diagnose delivery performance drops and warehouse suspensions from DuckDB over S3 Parquet (evaluated with Langfuse traces and LLM judges), a documentation-drift detector that models a wiki as a Neptune graph and finds stale pages with a Rust Lambda on Bedrock, and a sourcing-explainability agent over a 30M-document OpenSearch index with a 7.5s p95 time to first token.
 
-I graduated summa cum laude in 2023 from the University of Arizona with a 4.0 GPA in computer science, and my past work includes transformer-based OCR for math and procedural generation for RL environments. Community outreach is important to me; I founded the Google Developers Student Club at the University of Arizona, leading international collaborations with other chapters and organizing over 30 workshops for 180+ members in a year.
+Before Amazon I was a research engineer at the University of Arizona, working on transformer-based math OCR and reinforcement learning, and co-authored an AAAI symposium paper on procedural generation. At Amazon's internal hackathons I won Spark 2025, placed runner-up at OSS AI 2026, and received the Spark 2026 Evaluation & Verification Award.
 
-My work and outreach has been recognized with multiple academic, research distinction and scholarships awards as well as wins at Major League and Google hackathons.
-
-For a deeper look at my work and experience, check out my [CV](/cv) or visit my [GitHub](https://github.com/Adi-UA).
+Selected projects are under [projects](/projects), the full record is in my [CV](/cv), and the source is on [GitHub](https://github.com/Adi-UA).
