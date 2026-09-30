@@ -5,7 +5,7 @@ permalink: /projects/
 description: Personal projects across Go, Java, Rust, Python, and TypeScript.
 nav: true
 nav_order: 1
-display_categories: [Applications & Systems, Research & Algorithms]
+display_categories: [Applications & Systems]
 horizontal: false
 ---
 

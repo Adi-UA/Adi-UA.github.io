@@ -2,7 +2,7 @@
 layout: page
 title: TaylorGPT
 description: A 1.4M-parameter transformer language model built from scratch in PyTorch, with hand-written multi-head attention, trained on Taylor Swift lyrics.
-category: Research & Algorithms
+category: Applications & Systems
 technologies: [PyTorch, Lightning, Numpy]
 github: https://github.com/Adi-UA/TaylorGPT
 importance: 1
