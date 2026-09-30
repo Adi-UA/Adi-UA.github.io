@@ -1,7 +1,7 @@
 ---
 layout: page
 title: TomCat
-description: ToMCAT is comprised of a set of local agents (one for each human teammate) equipped with cameras and microphones to capture facial expressions and speech, as well as virtual sensors that record the local environment, the actions performed by human teammates, and chat exchanges between them. The local agents communicate with their respective humans, as well as with a global agent that performs coordination and global team optimization. The ToMCAT project is funded by a 4.5 year, $7.5M DARPA grant as part of the Artificial Social Intelligence for Successful Teams (ASIST) program.
+description: A DARPA-funded multi-agent AI system that reads teammates' speech, facial expressions, and chat to help human teams coordinate. University of Arizona.
 category: Applications & Systems
 technologies: [Python, Multi-Agent Systems, Cognitive Architecture]
 github: https://github.com/ml4ai/tomcat

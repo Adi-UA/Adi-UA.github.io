@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Start Journey
-description: Designed a full-stack stable diffusion-based image generator with PyTorch, CUDA, HuggingFace, and FastAPI for the backend and React in TypeScript for the front end.
+description: A full-stack Stable Diffusion text-to-image app, with a PyTorch and Hugging Face Diffusers backend on FastAPI and a React TypeScript frontend.
 category: Applications & Systems
 technologies: [Python, PyTorch, HuggingFace, CUDA, FastAPI, React, TypeScript]
 github: https://github.com/Adi-UA/start-journey

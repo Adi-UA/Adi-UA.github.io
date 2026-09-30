@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Hindsight
-description: Keyless backtest visualizer for equity trading strategies with real-time portfolio charting and drawdown analysis.
+description: Backtest classic stock trading strategies and see what would have happened, with portfolio and drawdown charts. Built with FastAPI and React.
 img: assets/img/hindsight.png
 importance: 1
 category: Applications & Systems

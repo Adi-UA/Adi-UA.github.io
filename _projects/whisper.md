@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Whisper
-description: Shared daily safe-word service with Google OAuth, JNI-based Rust word generation, Spring Boot, React, and a Helm chart for Kubernetes.
+description: A shared daily safe word for your group, built with Spring Boot, Rust over JNI, Google sign-in, React, and a Helm chart for Kubernetes.
 img: assets/img/whisper.png
 importance: 1
 category: Applications & Systems

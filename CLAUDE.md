@@ -14,7 +14,7 @@ Keep every instruction file under 150 lines. Before finishing any edit to a doc,
 
 ## Site analytics
 
-Pull read-only Google Analytics and Search Console reports with `~/Documents/helper-scripts/.ga-venv/bin/python ~/Documents/helper-scripts/ga_pull.py`. It drives headless Chrome on a persistent profile (`~/.ga-browser`) and never types credentials. Exit code 2 means a login wall: ask the owner to run the same command with `--login` in their own terminal, sign in, press Enter, then rerun.
+Read Google Analytics (GA4 `G-VJSXL9PHY3`) and Search Console through Claude in Chrome, the owner's signed-in browser. Google blocks sign-in in Playwright-driven Chrome, so `~/Documents/helper-scripts/ga_pull.py` cannot log in. Search Console ownership rests on `google44e6944409b2f1ae.html` at the repo root; never delete it. Keep traffic notes outside this public repo.
 
 ## What this repo is
 

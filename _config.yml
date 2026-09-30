@@ -7,7 +7,7 @@ first_name: Adi
 middle_name:
 last_name: Banerjee
 contact_note: ""
-description: > # the ">" symbol means to ignore newlines until "footer_text:"
+description: >- # the ">-" symbol means to ignore newlines until "footer_text:"
   Adi Banerjee is a software engineer at Amazon building production AI agents: MCP servers, LLM evaluation, graph-based tooling, and AWS data pipelines.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
@@ -17,7 +17,7 @@ keywords: Adi Banerjee, software engineer, AI agents, MCP, LLM evaluation, AWS, 
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: 👾 # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
-url: https://Adi-UA.github.io # the base hostname & protocol for your site
+url: https://adi-ua.github.io # the base hostname & protocol for your site
 baseurl: # the subpath of your site, e.g. /blog/. Leave blank for root
 last_updated: false # set to true if you want to display last updated in the footer
 impressum_path: # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR

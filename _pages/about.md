@@ -31,3 +31,25 @@ I'm a software engineer at Amazon in Seattle, building agentic systems for vendo
 Before Amazon I was a research engineer at the University of Arizona, working on transformer-based math OCR and reinforcement learning, and co-authored an AAAI symposium paper on procedural generation. At Amazon's internal hackathons I won Spark 2025, placed runner-up at OSS AI 2026, and received the Spark 2026 Evaluation & Verification Award.
 
 Selected projects are under [projects](/projects), the full record is in my [CV](/cv), and the source is on [GitHub](https://github.com/Adi-UA).
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "https://adi-ua.github.io/#person",
+  "name": "Adi Banerjee",
+  "url": "https://adi-ua.github.io/",
+  "image": "https://adi-ua.github.io/assets/img/prof_pic.jpg",
+  "jobTitle": "Software Engineer",
+  "worksFor": { "@type": "Organization", "name": "Amazon", "url": "https://www.amazon.com/" },
+  "alumniOf": { "@type": "CollegeOrUniversity", "name": "University of Arizona", "url": "https://www.arizona.edu/" },
+  "address": { "@type": "PostalAddress", "addressLocality": "Seattle", "addressRegion": "WA", "addressCountry": "US" },
+  "knowsAbout": ["AI agents", "Model Context Protocol", "LLM evaluation", "AWS", "Amazon Bedrock", "Rust", "Java", "Python", "PyTorch"],
+  "sameAs": [
+    "https://github.com/Adi-UA",
+    "https://www.linkedin.com/in/adi-ua/",
+    "https://arxiv.org/abs/2211.06733",
+    "https://doi.org/10.1007/978-3-031-21671-8_6"
+  ]
+}
+</script>

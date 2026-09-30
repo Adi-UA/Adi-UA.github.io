@@ -1,7 +1,7 @@
 ---
 layout: page
 title: TaylorGPT
-description: Designed a 1.4 million parameter character-level transformer decoder model to generate Taylor Swift lyrics from scratch using PyTorch, including custom implementations for masking, multi-head attention, and transformer blocks along with model profiling, logging, and multi-GPU training.
+description: A 1.4M-parameter transformer language model built from scratch in PyTorch, with hand-written multi-head attention, trained on Taylor Swift lyrics.
 category: Research & Algorithms
 technologies: [PyTorch, Lightning, Numpy]
 github: https://github.com/Adi-UA/TaylorGPT

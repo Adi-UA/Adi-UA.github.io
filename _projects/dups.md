@@ -1,7 +1,7 @@
 ---
 layout: page
 title: dups
-description: Fast concurrent duplicate file finder in Go with two-pass hashing, interactive deletion, and cross-platform builds.
+description: A fast duplicate file finder in Go. Concurrent two-pass SHA-256 hashing finds copies, then lets you review and delete them group by group.
 img: assets/img/dups.png
 importance: 1
 category: Applications & Systems
