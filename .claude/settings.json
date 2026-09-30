@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(bundle exec jekyll build*)",
+      "Bash(npm run lint:prettier)",
+      "Bash(npm run lint:style-contract)",
+      "Bash(bash test/integration_*.sh)",
+      "Bash(git status)",
+      "Bash(git diff*)",
+      "Bash(git log*)",
+      "Bash(git --no-pager *)"
+    ]
+  }
+}
