@@ -6,6 +6,16 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 The import above (`AGENTS.md`, which itself defers to `.github/copilot-instructions.md` and `docs/BOUNDARIES.md`) is the canonical short entry point: ownership boundaries, the validated command set, and PR-routing rules. Keep `AGENTS.md` short and ecosystem-neutral — put Claude-specific or longer-form guidance here instead. Everything below is the cross-repo "big picture" that those files assume but don't spell out.
 
+@.claude/rules/concise-answers.md
+
+## Doc hygiene
+
+Keep every instruction file under 150 lines. Before finishing any edit to a doc, skill, or instruction file, self-review it: if new text restates something stated elsewhere, link the existing source instead, and confirm every path, skill name, and section pointer you touched still resolves. Writing style follows the global rules; do not copy them here.
+
+## Site analytics
+
+Pull read-only Google Analytics and Search Console reports with `~/Documents/helper-scripts/.ga-venv/bin/python ~/Documents/helper-scripts/ga_pull.py`. It drives headless Chrome on a persistent profile (`~/.ga-browser`) and never types credentials. Exit code 2 means a login wall: ask the owner to run the same command with `--login` in their own terminal, sign in, press Enter, then rerun.
+
 ## What this repo is
 
 `al-folio` v1.x is a **thin Jekyll starter**, not a theme. It owns only: starter wiring (`Gemfile`, `_config.yml`, `_data/featured_plugins.yml`), example content (`_pages`, `_posts`, `_projects`, `_news`, `_teachings`, `_books`, `_bibliography`), docs (`docs/`), cross-gem integration tests (`test/integration_*.sh`), and visual/parity tests (`test/visual/`). **All runtime, layouts, includes, Sass, tags, filters, and feature JS live in versioned gems**, published independently on RubyGems. `docs/BOUNDARIES.md` is the authoritative area→gem ownership table.
