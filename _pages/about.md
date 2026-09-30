@@ -28,7 +28,7 @@ latest_posts:
 
 I'm a software engineer at Amazon in Seattle, building agentic systems for vendor operations. Recent work includes an MCP server that lets a vendor-facing AI assistant diagnose delivery performance drops and warehouse suspensions from DuckDB over S3 Parquet (evaluated with Langfuse traces and LLM judges), a documentation-drift detector that models a wiki as a Neptune graph and finds stale pages with a Rust Lambda on Bedrock, and a sourcing-explainability agent over a 30M-document OpenSearch index with a 7.5s p95 time to first token.
 
-Before Amazon I was a research engineer at the University of Arizona, working on transformer-based math OCR and reinforcement learning, and co-authored an AAAI symposium paper on procedural generation. I've also won prizes at four Amazon internal hackathons.
+Before Amazon I was a research engineer at the University of Arizona, working on transformer-based math OCR and reinforcement learning, and co-authored an AAAI symposium paper on procedural generation. Over the last year I've also enjoyed taking part in hackathons at Amazon, winning prizes at OSS 2025, OSS 2026, Amazon Spark 2025, and Amazon Spark 2026.
 
 Selected projects are under [projects](/projects), the full record is in my [CV](/cv), and the source is on [GitHub](https://github.com/Adi-UA).
 
