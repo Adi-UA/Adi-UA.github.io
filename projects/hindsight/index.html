@@ -74,16 +74,36 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "projects-dups",
+        },{id: "projects-ai-plays-snake",
+          title: 'AI Plays Snake',
+          description: "Neural networks evolved with NEAT learn to play a Pygame version of Snake, comparing binary adjacency inputs against raycast distance sensors.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/ai_plays_snake/";
+            },},{id: "projects-dups",
           title: 'dups',
           description: "A fast duplicate file finder in Go. Concurrent two-pass SHA-256 hashing finds copies, then lets you review and delete them group by group.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/dups/";
+            },},{id: "projects-fertile-grounds",
+          title: 'Fertile Grounds',
+          description: "A Fabric mod for Minecraft with tiered soil blocks that passively bone-meal crops, plus the Bean Fairy, a rare night visitor that grows a 5x5 patch.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/fertile_grounds/";
             },},{id: "projects-hindsight",
           title: 'Hindsight',
           description: "Backtest classic stock trading strategies and see what would have happened, with portfolio and drawdown charts. Built with FastAPI and React.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/hindsight/";
+            },},{id: "projects-meowdel",
+          title: 'MEOWDEL',
+          description: "A DCGAN built from scratch in PyTorch and Lightning that generates 64x64 cat faces, comparing a baseline against spectral norm and an R1 penalty.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/meowdel/";
+            },},{id: "projects-pygantter",
+          title: 'PyGantter',
+          description: "Turn a CSV, TSV, or JSON task list into a Gantt chart with critical path, dependencies, milestones, and progress. A typed Python CLI built on Plotly.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/pygantter/";
             },},{id: "projects-start-journey",
           title: 'Start Journey',
           description: "A full-stack Stable Diffusion text-to-image app, with a PyTorch and Hugging Face Diffusers backend on FastAPI and a React TypeScript frontend.",
